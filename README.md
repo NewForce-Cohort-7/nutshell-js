@@ -70,18 +70,8 @@ To start you off, here's an example of what the resources in your API should loo
 1. Each module should have a comment at the top with the following info: author(s) and purpose of module
 1. The README for your project should include instructions on how another person can download and run the application
 
-## How to Handle Authentication
+## A Note About Authentication
 
-Be very clear that what you will be implemeting is not real authentication. It is a simulation of it using very simplistic tools.
+We want you to know that the login and registration code we have given you is fake, completely insecure, and would never be implemented in a professional application. It is a simulation authentication using very simplistic tools, because authentication is not a learning objective of students at NSS.
 
-You will be using session storage to keep track of which user has logged into Nutshell. When the user fills out the registration form, you will POST their email, username and password to the `users` collection in your API. You will then immediately take the `id` of the object in the response and save it to [session storage](https://javascript.info/localstorage#sessionstorage).
-
-```js
-sessionStorage.setItem("activeUser", user.id)
-```
-
-If you want to add a Logout feature, all you need to do it remove the session storage item.
-
-```js
-sessionStorage.removeItem("activeUser")
-```
+You will be using [session storage](https://javascript.info/localstorage#sessionstorage) to keep track of which user has logged into Nutshell. You need to read the code in the **`LoginForm`** and **`RegisterForm`** components so that you see what is going on, but you do not need to change it. However, you will have to use a custom message that is being dispatched by those components.
