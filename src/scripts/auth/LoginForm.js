@@ -6,9 +6,9 @@ eventHub.addEventListener("userAuthenticated", e => {
 })
 
 eventHub.addEventListener("click", e => {
-    if (e.target.id === "login--button") {
-        const username = document.querySelector("#login--username").value
-        const password = document.querySelector("#login--password").value
+    if (e.target.id === "login__button") {
+        const username = document.querySelector("#login__username").value
+        const password = document.querySelector("#login__password").value
 
 
         return fetch(`http://localhost:8088/users?username=${username}`)
@@ -30,10 +30,10 @@ eventHub.addEventListener("click", e => {
 const render = () => {
     contentTarget.innerHTML += `
         <section class="login">
-            <input id="login--username" type="text" placeholder="Enter your username">
-            <input id="login--password" type="password" placeholder="Enter your password">
+            <input id="login__username" type="text" placeholder="Enter your username">
+            <input id="login__password" type="password" placeholder="Enter your password">
 
-            <button id="login--button">Log In</button>
+            <button id="login__button">Log In</button>
         </section>
     `
 }
