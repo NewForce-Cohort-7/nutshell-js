@@ -32,7 +32,7 @@ To start you off, here's an example of what the resources in your API should loo
 ### Users
 
 ```json
-{ "id": 1, "username": "Steve", "email": "me@me.com" }
+{ "id": 1, "email": "me@me.com" }
 ```
 
 ### Messages
