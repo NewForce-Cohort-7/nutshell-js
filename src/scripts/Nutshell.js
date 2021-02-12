@@ -1,3 +1,7 @@
+import {LogOutButton} from "./auth/LogoutButton.js"
+
 export const Nutshell = () => {
-    // Render all your UI components here
+
+    LogOutButton()
+      // Render all your UI components here
 }
