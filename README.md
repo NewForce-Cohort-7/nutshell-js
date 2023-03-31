@@ -69,7 +69,7 @@ To start you off, here's an example of what the resources in your API should loo
 
 1. Each module should have a comment at the top with the following info: author(s) and purpose of module
 1. The README for your project should include instructions on how another person can download and run the application
-
+<!-- 
 ## A Note About Authentication
 
 We want you to know that the login and registration code we have given you is fake, completely insecure, and would never be implemented in a professional application. It is a simulation authentication using very simplistic tools, because authentication is not a learning objective of students at NewForce.
@@ -77,3 +77,4 @@ We want you to know that the login and registration code we have given you is fa
 You will be using [session storage](https://javascript.info/localstorage#sessionstorage) to keep track of which user has logged into Nutshell. You need to read the code in the **`LoginForm`**, **`RegisterForm`**, and **`LogoutButton`** components so that you see what is going on, but you do not need to change it.
 
 When the user logs in, they should see _their_ data printed to the DOM. You can accomplish this by retrieving their user Id from session storage and using it to query json-server for their associated data. 
+ -->
