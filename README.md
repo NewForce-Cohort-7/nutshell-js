@@ -29,10 +29,10 @@ You will be utilizing all of the skills and concepts that you've learned up to t
 
 To start you off, here's an example of what the resources in your API should look like once it's populated with some data from your application.
 
-### Users
+### Events
 
 ```json
-{ "id": 1, "email": "me@me.com" }
+{ "id": 1, "name": "Party a the docks", "date": "08/04/2029", "location": "313 Runners Row" }
 ```
 
 ### Messages
@@ -53,10 +53,10 @@ To start you off, here's an example of what the resources in your API should loo
 }
 ```
 
-### Friends
+### Photos
 
 ```json
-{ "id": 1, "userId": 1, "following": 3 }
+{ "id": 1, "url": "www.photos.com", "description": "Look at me!", "date": "03/15/1999" }
 ```
 
 ### Tasks
