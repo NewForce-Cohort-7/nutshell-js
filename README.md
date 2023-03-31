@@ -56,7 +56,7 @@ To start you off, here's an example of what the resources in your API should loo
 ### Photos
 
 ```json
-{ "id": 1, "url": "www.photos.com", "description": "Look at me!", "date": "03/15/1999" }
+{ "id": 1, "url": "www.photos.com", "caption": "Look at me!", "date": "03/15/1999" }
 ```
 
 ### Tasks
